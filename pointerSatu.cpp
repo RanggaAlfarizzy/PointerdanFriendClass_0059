@@ -7,3 +7,9 @@ class mahasiswa{
         cout<<"No Induk = "<<nim<<endl;
     }
 };
+
+int main (){
+    mahasiswa mhs{1}; // objek mhs
+    mhs.showNim(); //member Access Operator
+
+}
